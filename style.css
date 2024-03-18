@@ -96,4 +96,22 @@ h1 {
 
 .piani-fatturazione {
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.fatt-professional {
+    width: calc(100% / 3 - 1rem);
+}
+
+.fatt-advance {
+    width: calc(100% / 3 - 1rem);
+}
+
+.fatt-enterprise {
+    width: calc(100% / 3 - 1rem);
+}
+
+.fatt-team-enterprise {
+    width: 100%;
 }
