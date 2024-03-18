@@ -149,3 +149,34 @@ h1 {
     flex-wrap: wrap;
     width: calc(100% / 2);
 }
+
+/* ****************FOOTER SELETTORI */
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+.box-footer {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.voci-footer {
+    width: 100%;
+    justify-content: space-between;
+    padding: 5rem 0;
+}
+
+.voci {
+    width: calc(100% / 5 - 1rem);
+    border: 2px solid white;
+}
+
+.lingua {
+    padding: 2rem 0;
+}
+
+.box-footer hr {
+    width: 5%;
+}
