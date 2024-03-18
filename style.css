@@ -15,6 +15,10 @@ body {
     padding: 1rem;
 }
 
+.pdd-05 {
+    padding: 0.5rem;
+}
+
 .flex {
     display: flex;
 }
@@ -89,7 +93,6 @@ h1 {
 
 .container {
     width: 100%;
-    background-color: blue;
     padding: 5rem 0;
 }
 
@@ -104,16 +107,37 @@ h1 {
     gap: 1rem;
 }
 
-.fatt-professional {
+.card {
     width: calc(100% / 3 - 1rem);
 }
 
-.fatt-advance {
-    width: calc(100% / 3 - 1rem);
+.piano {
+    justify-content: center;
 }
 
-.fatt-enterprise {
-    width: calc(100% / 3 - 1rem);
+.livel {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.price {
+    font-weight: bold;
+}
+
+.piani-fatturazione section {
+    padding-bottom: 2rem;
+}
+
+.piani-fatturazione ul {
+    list-style: none;
+}
+
+.piani-fatturazione button {
+    width: 100%;
+    background-color: blue;
+    color: white;
+    padding: 1rem;
+    border: 0px;
 }
 
 .fatt-team-enterprise {
