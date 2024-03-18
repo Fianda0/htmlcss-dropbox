@@ -26,7 +26,8 @@ main .box,
 main .titolo,
 main .fatturazione,
 main .piani-fatturazione,
-.piani-fatturazione div {
+.piani-fatturazione div,
+main .operazioni {
     border: 2px solid black;
 }
 
@@ -61,7 +62,7 @@ header {
 
 .box-1 {
     margin: 0 auto;
-    width: 60%;
+    width: 70%;
 }
 
 h1 {
@@ -71,6 +72,7 @@ h1 {
 
 .element {
     width: 100%;
+    flex-wrap: wrap;
 }
 
 .element-testo {
@@ -90,7 +92,7 @@ h1 {
 }
 
 .box {
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
 }
 
@@ -114,4 +116,15 @@ h1 {
 
 .fatt-team-enterprise {
     width: 100%;
+}
+
+.box-operazioni {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.operazioni {
+    width: calc(100% / 3 - 2rem);
+    margin: 1rem;
 }
