@@ -27,7 +27,11 @@ main .titolo,
 main .fatturazione,
 main .piani-fatturazione,
 .piani-fatturazione div,
-main .operazioni {
+main .operazioni,
+.sponsor-center,
+.sponsor-left,
+.sponsor-right,
+.sponsor {
     border: 2px solid black;
 }
 
@@ -77,12 +81,10 @@ h1 {
 
 .element-testo {
     width: 50%;
-    background-color: red;
 }
 
 .element-img {
     width: 50%;
-    background-color: green;
 }
 
 .container {
@@ -127,4 +129,23 @@ h1 {
 .operazioni {
     width: calc(100% / 3 - 2rem);
     margin: 1rem;
+}
+
+.sponsor-left {
+    width: calc(100% / 3);
+    flex-wrap: wrap;
+}
+
+.sponsor-center {
+    width: calc(100% / 3);
+}
+
+.sponsor-right {
+    width: calc(100% / 3);
+    flex-wrap: wrap;
+}
+
+.sponsor {
+    flex-wrap: wrap;
+    width: calc(100% / 2);
 }
