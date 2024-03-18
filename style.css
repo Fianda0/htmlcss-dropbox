@@ -25,7 +25,8 @@ main .element-testo,
 main .box,
 main .titolo,
 main .fatturazione,
-main .piani-fatturazione {
+main .piani-fatturazione,
+.piani-fatturazione div {
     border: 2px solid black;
 }
 
@@ -80,4 +81,19 @@ h1 {
 .element-img {
     width: 50%;
     background-color: green;
+}
+
+.container {
+    width: 100%;
+    background-color: blue;
+    padding: 5rem 0;
+}
+
+.box {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.piani-fatturazione {
+    justify-content: space-between;
 }
