@@ -10,6 +10,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+img {
+    width: 100%;
+}
+
 
 .pdd-1 {
     padding: 1rem;
@@ -17,6 +21,18 @@ body {
 
 .pdd-05 {
     padding: 0.5rem;
+}
+
+.pdd-top-2 {
+    padding-top: 2rem;
+}
+
+.mrg-top-5 {
+    margin-top: 5rem;
+}
+
+.mrg-btm-2 {
+    margin-bottom: 2rem;
 }
 
 .flex {
@@ -30,12 +46,13 @@ body {
     border: 0px;
 }
 
+a {
+    color: blue;
+}
+
 
 main .box,
 main .titolo,
-main .fatturazione,
-main .piani-fatturazione,
-.piani-fatturazione div,
 main .operazioni,
 .sponsor-center,
 .sponsor-left,
@@ -98,7 +115,7 @@ nav a {
 .container-1 {
     padding-top: 50px;
     width: 100%;
-    background-color: lightblue;
+    background-color: #b4d0e7;
 }
 
 .box-1 {
@@ -114,7 +131,7 @@ h1 {
 .element {
     line-height: 1.5rem;
     font-size: 1.1rem;
-    width: 100%;
+    width: 90%;
     flex-wrap: wrap;
 }
 
@@ -139,7 +156,7 @@ h1 {
     position: relative;
 }
 
-.element-img img {
+.element .element-img img {
     width: 100%;
     position: absolute;
     top: -90px;
@@ -147,12 +164,17 @@ h1 {
 
 .container {
     width: 100%;
-    padding: 5rem 0;
+    padding: 8rem 0 5rem 0;
 }
 
 .box {
     width: 60%;
     margin: 0 auto;
+}
+
+.titolo {
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 .piani-fatturazione {
@@ -161,13 +183,39 @@ h1 {
     gap: 1rem;
 }
 
+.cont-card {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
 .card {
     width: calc(100% / 3 - 1rem);
+    height: 100%;
 }
 
 .piano {
     justify-content: center;
 }
+
+.card i,
+.fatt-team-enterprise i {
+    padding-right: 0.5rem;
+}
+
+.border-card {
+    border: 1px solid lightgray;
+    padding: 0 1rem;
+}
+
+.name-piano {
+    height: 5%;
+}
+
+.content-piano {
+    height: 95%;
+}
+
 
 .livel {
     font-size: 1.5rem;
@@ -178,12 +226,13 @@ h1 {
     font-weight: bold;
 }
 
-.piani-fatturazione section {
-    padding-bottom: 2rem;
-}
-
 .piani-fatturazione ul {
     list-style: none;
+}
+
+.cont-btt {
+    width: 100%;
+    margin: 1rem auto;
 }
 
 .piani-fatturazione button {
@@ -192,6 +241,20 @@ h1 {
     color: white;
     padding: 1rem;
     border: 0px;
+    font-size: 1.1rem;
+}
+
+.mini-titolo {
+    font-weight: bold;
+}
+
+.blu i {
+    color: blue;
+    font-size: 1.1rem;
+}
+
+.cont-check {
+    padding: 0.5rem 0;
 }
 
 .fatt-team-enterprise {
@@ -208,6 +271,25 @@ h1 {
     width: calc(100% / 3 - 2rem);
     margin: 1rem;
 }
+
+.cont-img {
+    width: 65%;
+}
+
+.cont-testo {
+    width: 35%;
+
+}
+
+.trova-partner {
+    border: 1px solid black;
+}
+
+.titolo-piccolo {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
 
 .sponsor-left {
     width: calc(100% / 3);

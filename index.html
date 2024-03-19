@@ -64,45 +64,211 @@
         <!-- Container 2 Piani fatturazione-->
         <div class="container">
             <div class="box">
-                <div class="titolo pdd-1">Titolo</div>
-                <div class="fatturazione pdd-1">fatturazione</div>
+                <div class="titolo pdd-1">Trova il piano business che fa per te</div>
+                <div class="fatturazione pdd-1">
+                    <input id="Fatturazione mensile" name="fatt" type="radio" value="Fatturazione mensile">
+                    <label for="Fatturazione mensile">Fatturazione mensile</label>
+                    <input id="Fatturazione annuale" name="fatt" type="radio" value="Fatturazione annuale">
+                    <label for="Fatturazione annuale">Fatturazione annuale</label>
+                </div>
 
                 <!-- Piani di fatturazioni -->
                 <div class="piani-fatturazione pdd-1 flex">
+                    <div class="cont-card flex">
 
-                    <!-- opzione singolo -->
-                    <div class="card">
-                        <section>
-                            <div class="piano pdd-1 flex">singolo</div>
-                        </section>
-                        <section>
-                            <div class="livel pdd-05">Professional</div>
-                            <div class="price pdd-05">€ 12.00</div>
-                            <div class="time pdd-05">Mese</div>
-                        </section>
-                        <section>
-                            <div class="pdd-05">utente</div>
-                            <div class="pdd-05">spazio</div>
-                            <div class="pdd-05">funzioni</div>
-                        </section>
-                        <section>
-                            <button>Prova gratis</button>
-                            <div class="pdd-05">oppure <a href="">ACQUISTA</a></div>
-                        </section>
-                        <hr>
-                        <section>
-                            <div class="pdd-05">Punti</div>
-                            <div class="pdd-05">
-                                <ul>
-                                    <li>invi</li>
-                                    <li>cartelle</li>
-                                </ul>
+                        <!-- opzione singolo -->
+                        <div class="card">
+                            <section class="border-card name.piano">
+                                <div class="piano pdd-1 flex">
+                                    <i class="fa-solid fa-user"></i> singolo
+                                </div>
+                            </section>
+                            <section class="border-card content-piano">
+                                <section class="pdd-top-2">
+                                    <div class="livel pdd-05">Professional</div>
+                                    <div class="price pdd-05">€ 12.00</div>
+                                    <div class="time pdd-05">/Mese</div>
+                                </section>
+                                <section class="pdd-top-2">
+                                    <div class="pdd-05 flex">
+                                        <div> <i class="fa-solid fa-user"></i> </div>
+                                        <div> 1 utente </div>
+                                    </div>
+                                    <div class="pdd-05 flex">
+                                        <div><i class="fa-solid fa-folder"></i></div>
+                                        <div>5 TB di spazio di archiviazione sicuro</div>
+                                    </div>
+                                    <div class="pdd-05 flex">
+                                        <div> <i class="fa-solid fa-share-nodes"></i></div>
+                                        <div> Funzioni di produttivita` premium e condivisione
+                                            file semplice e sicura</div>
+                                    </div>
+                                </section>
+                                <section class="pdd-top-2">
+                                    <div class="cont-btt"><button>Prova gratuita per 30 giorni</button></div>
+                                    <div class="pdd-05">oppure <a href="">acquista</a></div>
+                                </section>
+                                <div class="pdd-top-2">
+                                    <hr>
+                                </div>
+                                <section class="pdd-top-2">
+                                    <div class="mini-titolo pdd-05">Punti Salienti del piano</div>
+                                    <div class="pdd-05">
+                                        <div class="cont-check flex">
+                                            <div class="blu"><i class="fa-solid fa-check"></i></div>
+                                            <div> Invia file fina a 100 GB con Dropbox Transfert</div>
+                                        </div>
+                                        <div class="cont-check flex">
+                                            <div class="blu"><i class="fa-solid fa-check"></i></div>
+                                            <div>Cartelle offline su disposittivi mobili</div>
+                                        </div>
+
+                                    </div>
+                                </section>
+                            </section>
+                        </div>
+
+                        <!-- opzione team -->
+                        <div class="card">
+                            <section class="border-card name.piano">
+                                <div class="piano pdd-1 flex">
+                                    <i class="fa-solid fa-user"></i> team
+                                </div>
+                            </section>
+                            <section class="border-card content-piano">
+                                <section class="pdd-top-2">
+                                    <div class="livel pdd-05">Professional</div>
+                                    <div class="price pdd-05">€ 12.00</div>
+                                    <div class="time pdd-05">/Mese</div>
+                                </section>
+                                <section class="pdd-top-2">
+                                    <div class="pdd-05 flex">
+                                        <div> <i class="fa-solid fa-user"></i> </div>
+                                        <div> 1 utente </div>
+                                    </div>
+                                    <div class="pdd-05 flex">
+                                        <div><i class="fa-solid fa-folder"></i></div>
+                                        <div>5 TB di spazio di archiviazione sicuro</div>
+                                    </div>
+                                    <div class="pdd-05 flex">
+                                        <div> <i class="fa-solid fa-share-nodes"></i></div>
+                                        <div> Funzioni di produttivita` premium e condivisione
+                                            file semplice e sicura</div>
+                                    </div>
+                                </section>
+                                <section class="pdd-top-2">
+                                    <div class="cont-btt"><button>Prova gratuita per 30 giorni</button></div>
+                                    <div class="pdd-05">oppure <a href="">acquista</a></div>
+                                </section>
+                                <div class="pdd-top-2">
+                                    <hr>
+                                </div>
+                                <section class="pdd-top-2">
+                                    <div class="mini-titolo pdd-05">Punti Salienti del piano</div>
+                                    <div class="pdd-05">
+                                        <div class="cont-check flex">
+                                            <div class="blu"><i class="fa-solid fa-check"></i></div>
+                                            <div> Invia file fina a 100 GB con Dropbox Transfert</div>
+                                        </div>
+                                        <div class="cont-check flex">
+                                            <div class="blu"><i class="fa-solid fa-check"></i></div>
+                                            <div>Cartelle offline su disposittivi mobili</div>
+                                        </div>
+                                        <div class="cont-check flex">
+                                            <div class="blu"><i class="fa-solid fa-check"></i></div>
+                                            <div>Cartelle offline su disposittivi mobili</div>
+                                        </div>
+                                        <div class="cont-check flex">
+                                            <div class="blu"><i class="fa-solid fa-check"></i></div>
+                                            <div>Cartelle offline su disposittivi mobili</div>
+                                        </div>
+                                        <div class="cont-check flex">
+                                            <div class="blu"><i class="fa-solid fa-check"></i></div>
+                                            <div>Cartelle offline su disposittivi mobili</div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </section>
+                        </div>
+
+                        <!-- opzione azienda -->
+                        <div class="card">
+                            <section class="border-card name.piano">
+                                <div class="piano pdd-1 flex">
+                                    <i class="fa-solid fa-user"></i> Aziedna
+                                </div>
+                            </section>
+                            <section class="border-card content-piano">
+                                <section class="pdd-top-2">
+                                    <div class="livel pdd-05">Professional</div>
+                                    <div class="price pdd-05">€ 12.00</div>
+                                    <div class="time pdd-05">/Mese</div>
+                                </section>
+                                <section class="pdd-top-2">
+                                    <div class="pdd-05 flex">
+                                        <div> <i class="fa-solid fa-user"></i> </div>
+                                        <div> 1 utente </div>
+                                    </div>
+                                    <div class="pdd-05 flex">
+                                        <div><i class="fa-solid fa-folder"></i></div>
+                                        <div>5 TB di spazio di archiviazione sicuro</div>
+                                    </div>
+                                    <div class="pdd-05 flex">
+                                        <div> <i class="fa-solid fa-share-nodes"></i></div>
+                                        <div> Funzioni di produttivita` premium e condivisione
+                                            file semplice e sicura</div>
+                                    </div>
+                                </section>
+                                <section class="pdd-top-2">
+                                    <div class="cont-btt"><button>Prova gratuita per 30 giorni</button></div>
+                                    <div class="pdd-05">oppure <a href="">acquista</a></div>
+                                </section>
+                                <div class="pdd-top-2">
+                                    <hr>
+                                </div>
+                                <section class="pdd-top-2">
+                                    <div class="mini-titolo pdd-05">Punti Salienti del piano</div>
+                                    <div class="pdd-05">
+                                        <div class="cont-check flex">
+                                            <div class="blu"><i class="fa-solid fa-check"></i></div>
+                                            <div> Invia file fina a 100 GB con Dropbox Transfert</div>
+                                        </div>
+                                        <div class="cont-check flex">
+                                            <div class="blu"><i class="fa-solid fa-check"></i></div>
+                                            <div>Cartelle offline su disposittivi mobili</div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </section>
+                        </div>
+
+                    </div>
+
+
+                    <div class="fatt-team-enterprise pdd-1">
+                        <section class="border-card name.piano">
+                            <div class="piano pdd-1 flex">
+                                <i class="fa-solid fa-user"></i> team
                             </div>
                         </section>
+                        <section class="border-card content-piano flex">
+                            <div>
+                                <section class="pdd-top-2">
+                                    <div class="livel pdd-05">Professional</div>
+                                    <div class="pdd-05">Contatta l'ufficio vendite per i prezzi</div>
+                                </section>
+                                <section class="pdd-top-2">
+                                    <div>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT
+                                        nella
+                                        gestione su qualsiasi scala.</div>
+                                </section>
+                            </div>
+                            <div>
+                                <div class="cont-btt"><button>Contatta l'ufficio vendite</button></div>
+                            </div>
+
+                        </section>
                     </div>
-                    <div class="card pdd-1">team</div>
-                    <div class="card pdd-1">azienda</div>
-                    <div class="fatt-team-enterprise pdd-1">enterprise</div>
                 </div>
             </div>
         </div>
@@ -110,22 +276,70 @@
         <!-- Container 3 -->
         <div class="container">
             <div class="box flex">
-                <div class="element-img pdd-1">immagine</div>
-                <div class="element-testo pdd-1">testo</div>
+                <div class="cont-img pdd-1"><img src="./img/partner.png" alt=""></div>
+                <div class="cont-testo pdd-1 mrg-top-5">
+                    <div class="titolo">Entra in contatto con un partenr Dropbox</div>
+                    <div class="pdd-top-2 mrg-btm-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi cum
+                        recusandae
+                        aliquam aperiam
+                        officia placeat quae pariatur illum, ut temporibus ab tempora tenetur facere maxime est odio id
+                        soluta dolore.</div>
+                    <span class="trova-partner pdd-1">Trova un partner</span>
+                </div>
             </div>
         </div>
 
         <!-- Container 4 operzioni-->
         <div class="container">
             <div class="box">
-                <div class="titolo pdd-1">titolo</div>
+                <div class="titolo pdd-1">Esegui piu` operazioni con dropbox Business</div>
                 <div class="box-operazioni flex">
-                    <div class="operazioni pdd-1">1</div>
-                    <div class="operazioni pdd-1">2</div>
-                    <div class="operazioni pdd-1">3</div>
-                    <div class="operazioni pdd-1">4</div>
-                    <div class="operazioni pdd-1">5</div>
-                    <div class="operazioni pdd-1">6</div>
+                    <div class="operazioni pdd-1">
+                        <div><img src="./img/business-feature-switching-tools.png" alt=""></div>
+                        <div class="titolo-piccolo mrg-btm-2">Passa di meno da uno strumento all'altro</div>
+                        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi fugit adipisci suscipit
+                            eaque, nisi ipsa quisquam nihil, sunt aliquam, sequi non quod molestias velit doloremque
+                            odio. Beatae necessitatibus rem minus.</div>
+                    </div>
+                    <div class="operazioni pdd-1">
+                        <div><img src="./img/business-feature-coordinate-it.png" alt=""></div>
+                        <div class="titolo-piccolo mrg-btm-2">Passa di meno da uno strumento all'altro</div>
+                        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi fugit adipisci suscipit
+                            eaque, nisi ipsa quisquam nihil, sunt aliquam, sequi non quod molestias velit doloremque
+                            odio. Beatae necessitatibus rem minus.</div>
+
+                    </div>
+                    <div class="operazioni pdd-1">
+                        <div><img src="./img/business-feature-integrations-it.png" alt=""></div>
+                        <div class="titolo-piccolo mrg-btm-2">Passa di meno da uno strumento all'altro</div>
+                        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi fugit adipisci suscipit
+                            eaque, nisi ipsa quisquam nihil, sunt aliquam, sequi non quod molestias velit doloremque
+                            odio. Beatae necessitatibus rem minus.</div>
+
+                    </div>
+                    <div class="operazioni pdd-1">
+                        <div><img src="./img/business-feature-multi-device.png" alt=""></div>
+                        <div class="titolo-piccolo mrg-btm-2">Passa di meno da uno strumento all'altro</div>
+                        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi fugit adipisci suscipit
+                            eaque, nisi ipsa quisquam nihil, sunt aliquam, sequi non quod molestias velit doloremque
+                            odio. Beatae necessitatibus rem minus.</div>
+                    </div>
+                    <div class="operazioni pdd-1">
+                        <div><img src="./img/business-feature-security.png" alt=""></div>
+                        <div class="titolo-piccolo mrg-btm-2">Passa di meno da uno strumento all'altro</div>
+                        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi fugit adipisci suscipit
+                            eaque, nisi ipsa quisquam nihil, sunt aliquam, sequi non quod molestias velit doloremque
+                            odio. Beatae necessitatibus rem minus.</div>
+
+                    </div>
+                    <div class="operazioni pdd-1">
+                        <div><img src="./img/business-feature-send-files-it.png" alt=""></div>
+                        <div class="titolo-piccolo mrg-btm-2">Passa di meno da uno strumento all'altro</div>
+                        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi fugit adipisci suscipit
+                            eaque, nisi ipsa quisquam nihil, sunt aliquam, sequi non quod molestias velit doloremque
+                            odio. Beatae necessitatibus rem minus.</div>
+
+                    </div>
                 </div>
             </div>
         </div>
