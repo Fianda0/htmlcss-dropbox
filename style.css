@@ -23,9 +23,14 @@ body {
     display: flex;
 }
 
+.btt-blu {
+    background-color: blue;
+    padding: 0.5rem 1rem;
+    color: white;
+    border: 0px;
+}
 
-main .element-img,
-main .element-testo,
+
 main .box,
 main .titolo,
 main .fatturazione,
@@ -48,6 +53,7 @@ header {
 }
 
 nav {
+
     height: 5rem;
 }
 
@@ -86,11 +92,6 @@ nav a {
     color: black;
 }
 
-#inizia {
-    background-color: blue;
-    padding: 0.5rem 1rem;
-    color: white;
-}
 
 /* *******************MAIN SELECTOR */
 
@@ -111,16 +112,37 @@ h1 {
 }
 
 .element {
+    line-height: 1.5rem;
+    font-size: 1.1rem;
     width: 100%;
     flex-wrap: wrap;
 }
 
 .element-testo {
-    width: 50%;
+    width: 40%;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.element-testo button {
+    margin: 3rem 0;
+    font-size: 1.1rem;
+}
+
+.element-testo i {
+    font-size: 3rem;
+    margin-top: 5rem;
 }
 
 .element-img {
-    width: 50%;
+    width: 60%;
+    position: relative;
+}
+
+.element-img img {
+    width: 100%;
+    position: absolute;
+    top: -90px;
 }
 
 .container {
