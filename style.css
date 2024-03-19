@@ -14,6 +14,14 @@ img {
     width: 100%;
 }
 
+.bckg-azure {
+    background-color: #b4d0e7;
+}
+
+.bckg-white {
+    background-color: white;
+}
+
 
 .pdd-1 {
     padding: 1rem;
@@ -55,15 +63,7 @@ a {
 }
 
 
-main .box,
-main .titolo,
-main .operazioni,
-.sponsor-center,
-.sponsor-left,
-.sponsor-right,
-.sponsor {
-    border: 2px solid black;
-}
+
 
 /* ****************HEADER SELECTOR */
 
@@ -168,7 +168,7 @@ h1 {
 
 .container {
     width: 100%;
-    padding: 8rem 0 5rem 0;
+    padding: 8rem 0;
 }
 
 .box {
@@ -306,6 +306,7 @@ h1 {
 
 }
 
+
 .sponsor-center img {
     width: 50%;
 }
@@ -359,6 +360,17 @@ h1 {
     background-color: rgb(241, 208, 60);
 }
 
+.testo {
+    width: 50%;
+    justify-content: end;
+    align-items: center;
+}
+
+.domanda {
+    font-weight: bold;
+    padding: 2rem 1rem;
+    justify-content: space-between;
+}
 
 
 /* ****************FOOTER SELETTORI */
@@ -381,7 +393,17 @@ footer {
 
 .voci {
     width: calc(100% / 5 - 1rem);
-    border: 2px solid white;
+}
+
+.link-footer {
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.link-footer a {
+    text-decoration: none;
+    padding: 0.5rem 0;
+    color: white;
 }
 
 .lingua {
