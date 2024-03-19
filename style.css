@@ -35,6 +35,10 @@ img {
     margin-bottom: 2rem;
 }
 
+.mrg-top-2 {
+    margin-top: 2rem;
+}
+
 .flex {
     display: flex;
 }
@@ -290,7 +294,6 @@ h1 {
     font-weight: bold;
 }
 
-
 .sponsor-left {
     width: calc(100% / 3);
     flex-wrap: wrap;
@@ -298,6 +301,13 @@ h1 {
 
 .sponsor-center {
     width: calc(100% / 3);
+    padding: 3rem;
+    background-color: rgb(230, 230, 230);
+
+}
+
+.sponsor-center img {
+    width: 50%;
 }
 
 .sponsor-right {
@@ -309,8 +319,47 @@ h1 {
     flex-wrap: wrap;
     width: calc(100% / 2);
     aspect-ratio: 1/1;
-    border-color: red;
 }
+
+.sponsor img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.sp1 {
+    background-color: lightgreen;
+}
+
+.sp2 {
+    background-color: rgb(110, 31, 31);
+}
+
+.sp3 {
+    background-color: rgb(51, 115, 189);
+}
+
+.sp4 {
+    background-color: red;
+}
+
+.sp5 {
+    background-color: rgb(194, 5, 5);
+}
+
+.sp6 {
+    background-color: #b4d0e7;
+}
+
+.sp7 {
+    background-color: rgb(40, 40, 155);
+}
+
+.sp8 {
+    background-color: rgb(241, 208, 60);
+}
+
+
 
 /* ****************FOOTER SELETTORI */
 
